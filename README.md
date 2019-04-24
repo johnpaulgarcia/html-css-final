@@ -16,14 +16,44 @@ We will provide you with some settings that will give you a clue to the dimensio
 ---
 To constrain the design space you will only need to create your page for the following viewport.
 
-Viewport: **1366x768**
+Viewport: **1366x768 pixels**
 
 Some helpful settings for your PixelParallel extension are in the image below. This will give an idea
-of what the margins and padding dimensions are close to.
+of what the margins and padding dimensions are.
 
 ![Pixel Parallel Settings](./readme-assets/pixel_parallel.png)
 
 You can then overlay the reference image using PixelParallel and start building.
+
+### Instructions
+---
+Due to the way this will be graded there is a specific file layout that must adhered to.
+
+Your submitted pull request must have an **index.html** file at the root of the repository. By default
+this repository already has the **index.html** at the root, so please don't move this file.
+
+    # please don't move the index.html file in this folder structure
+    .
+    ├── README.md
+    ├── final_1366x768.png
+    ├── images
+    │   ├── pic01.jpg
+    │   ├── pic02.jpg
+    │   ├── pic03.jpg
+    │   └── pic04.jpg
+    ├── index.css
+    ├── index.html
+    └── readme-assets
+        └── pixel_parallel.png
+
+Please add a **user.json** file at the root of your repository. This file will also be parsed as part of the grading
+process.
+
+    # example format
+    {
+      "name": $YOUR_NAME,
+      "email": $YOUR_EMAIL
+    }
 
 ### Grading
 ---
