@@ -46,7 +46,7 @@ this repository already has the **index.html** at the root, so please don't move
     └── readme-assets
         └── pixel_parallel.png
 
-Please add a **user.json** file at the root of your repository. This file will also be parsed as part of the grading
+Please fill out the **user.json** file at the root of your repository. This file will also be parsed as part of the grading
 process.
 
     # example format
