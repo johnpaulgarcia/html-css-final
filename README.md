@@ -27,9 +27,11 @@ You can then overlay the reference image using PixelParallel and start building.
 
 ### Instructions
 ---
+**IMPORTANT!!!**: Using `git` create a new branch named `submission`. Your pull request must be made from this `submission` branch.
+
 Due to the way this will be graded there is a specific file layout that must adhered to.
 
-Your submitted pull request must have an **index.html** file at the root of the repository. By default
+**IMPORTANT!!!:** Your submitted pull request must have an **index.html** file at the root of the repository. By default
 this repository already has the **index.html** at the root, so please don't move this file.
 
     # please don't move the index.html file in this folder structure
@@ -46,7 +48,7 @@ this repository already has the **index.html** at the root, so please don't move
     └── readme-assets
         └── pixel_parallel.png
 
-Please fill out the **user.json** file at the root of your repository. This file will also be parsed as part of the grading
+**IMPORTANT!!!:** Please fill out the **user.json** file at the root of your repository. This file will also be parsed as part of the grading
 process.
 
     # example format
