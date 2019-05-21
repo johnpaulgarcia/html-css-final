@@ -193,7 +193,7 @@ html, body {
 .more-btn {
 
   
-  margin-bottom: -10px;
+  
   width: 90px;
   height: 40px;
   border-radius: 5px;
@@ -209,9 +209,10 @@ html, body {
 .sub-para {
 
   
-  margin-bottom: 26px;
+  
+  margin-bottom: 29px;
   color: #555555;
-  line-height: 1.6;
+  line-height: 1.8;
   font-size: 16px;
   width: 75%;
   text-align: center;
@@ -231,10 +232,14 @@ html, body {
 }
 
 .lorem2 {
+
+  position: absolute;
+  bottom: 265px;
   font-size: 30px;
   letter-spacing: 5px;
   font-weight: 100;
   margin-top: -80px;
+  color: #555555;
 }
 
 .uphigh {
@@ -251,12 +256,14 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  bottom: 69px;
   text-align: center;
   margin-bottom: 5px;
   width: 30%;
   color: #555555;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.9;
 }
 
 .downlow
