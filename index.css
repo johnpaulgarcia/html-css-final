@@ -70,11 +70,13 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  position: absolute;
   letter-spacing: 2px;
   font-size: 15px;
   font-weight: bold;
   width: 200px;
-  margin-top: 30px;
+  margin-top: 120px;
   border-radius: 6px;
   height: 45px;
   border: 1px solid #a9a9a9;
@@ -193,7 +195,6 @@ html, body {
 .more-btn {
 
   
-  
   width: 90px;
   height: 40px;
   border-radius: 5px;
@@ -211,6 +212,7 @@ html, body {
   
   
   margin-bottom: 29px;
+  
   color: #555555;
   line-height: 1.8;
   font-size: 16px;
@@ -238,8 +240,9 @@ html, body {
   font-size: 30px;
   letter-spacing: 5px;
   font-weight: 100;
-  margin-top: -80px;
+  margin-bottom: 20px;
   color: #555555;
+  
 }
 
 .uphigh {
@@ -255,11 +258,10 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 69px;
+ 
+  
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   width: 30%;
   color: #555555;
   font-size: 16px;
