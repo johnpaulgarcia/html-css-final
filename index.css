@@ -1,4 +1,39 @@
 html, body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
+  margin:0;
+  padding:0;
+}
+
+.top {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 370px;
+    background: #222;
+
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  width: 198px;
+  position: absolute;
+  top: 240px;
+}
+
+.text-final {
+
+  font-size: 63px;
+  font-weight: 500;
+  letter-spacing: 0.2;
+  color: white;
+  margin-top: 22px;
+  margin-right: 1px;
+
+
+  
 }
