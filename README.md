@@ -27,7 +27,7 @@ You can then overlay the reference image using PixelParallel and start building.
 
 ### Instructions
 ---
-**IMPORTANT!!!**: Using `git` create a new branch named `submission`. Your pull request must be made from this `submission` branch.
+**IMPORTANT!!!**: Using `git` create a new branch named `submission`. Your pull request **must** be made from this `submission` branch.
 
 Due to the way this will be graded there is a specific file layout that must adhered to.
 
@@ -61,3 +61,7 @@ process.
 ---
 Your submission will be graded based on how closely it matches the reference image. The comparison
 will be made by running it through an image comparison program.
+
+### Finished
+---
+Open a pull request with your completed submission back to this repository. You **must** open the pull request from the `submission` branch you created. 
